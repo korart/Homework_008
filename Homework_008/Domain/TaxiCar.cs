@@ -19,5 +19,10 @@ namespace Homework_008.Domain
 			this.DiverPhone = driverPhone;
 		}
 
+		public void UpdateState()
+		{
+			State.Update(this);
+		}
+
 	}
 }

@@ -20,11 +20,11 @@
 		public void Execute()
 		{
 			Thread.Sleep(500);
-			TaxiCar.State.Update(TaxiCar);
+			TaxiCar.UpdateState();
 			Thread.Sleep(1000);
-			TaxiCar.State.Update(TaxiCar);
+			TaxiCar.UpdateState();
 			Thread.Sleep(500);
-			TaxiCar.State.Update(TaxiCar);
+			TaxiCar.UpdateState();
 		}
 	}
 }
